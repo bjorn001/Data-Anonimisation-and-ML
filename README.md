@@ -90,7 +90,5 @@ The repository contains following locations for data:
 
 
 Author: Björn van Engelenburg 
-
 Examined by: Jacco van Ossenbruggen and Dayana Spagnuelo
-
 University: Vrije Universiteit Amsterdam
