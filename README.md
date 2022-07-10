@@ -82,9 +82,9 @@ The repository contains following locations for data:
 - `generalization/hierarchies`
   - contains the necessary defined generalization hierarchies per attribute and dataset, from the original paper of Dam et al. (2021)
 - `results`
-  - all computed results (anonymised datasets, ML performance, etc.) are stored inside a folder structure inside `results` for each experiment. These folders contain the initial result used for the paper concerning classifers and regressors.
-
-
+  - all computed results (anonymised datasets, ML performance, etc.) are stored inside a folder structure inside `results` for each experiment. 
+- `paper-results`
+  - Contains the results used for the paper itself
 
 Author: Björn van Engelenburg     
 Examined by: Jacco van Ossenbruggen and Dayana Spagnuelo
