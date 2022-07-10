@@ -53,7 +53,7 @@ Original implementations:
 - [Top Down Greedy Anonymization](https://github.com/qiyuangong/Top_Down_Greedy_Anonymization)
 - [k-Anonymity in Practice: How Generalisation and Suppression Affect Machine Learning Classifiers](https://github.com/fhstp/k-AnonML)
 
-Notice that the extension used in our paper are modifications concerning:
+Notice that the extension used in our paper are the following modications:
 - For regression:
 
   > median_house_value was moved to the target variable
