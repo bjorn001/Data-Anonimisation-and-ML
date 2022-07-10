@@ -16,8 +16,9 @@ The respository is structured as follows:
 
 
 How to run?
+
 In order to install the necessary requirements either use `pipenv install` or `pip3 install -r requirements.txt`.
-Then activate the virtual environment, e.g. with `pipenv shell`. This can also be done without the environment, but depends on dependencies.
+Then activate the virtual environment, e.g. with `pipenv shell`. This can also be done without the environment, but depends on dependencies. Therefore it is advised to first run it without downloading these requirements and dependencies
 
 After installing, navigate to the folder ...\k-AnonML-main using cd in command prompt. After this, you call the several arguments below to initiate the code, depending on what privacy method and model combination you want to use. Each model uses a different command, such as 'log' for logistic regression. 
 
