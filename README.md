@@ -54,14 +54,22 @@ Original implementations:
 - [k-Anonymity in Practice: How Generalisation and Suppression Affect Machine Learning Classifiers](https://github.com/fhstp/k-AnonML)
 
 Notice that the extension used in our paper are modifications concerning:
-- For regression
+- For regression:
+
   > median_house_value was moved to the target variable
+  
   > Three new regressors were added: linear, lasso and ridge regression
+  
   > New evaluation methods were implemented for regression: R2 score (and even MSE if useful)
+  
   > writing of results was changed to allow for writing the different regression evaluation results
-- For classification
+  
+- For classification:
+
   > New classifiers were added: AdaBoostClassifier, Naive Bayes and Logistic Regression
+  
 - For both:
+
   > A non-anonymised score was printed and calculated
 
 
