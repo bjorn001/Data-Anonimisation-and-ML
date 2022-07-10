@@ -14,6 +14,40 @@ The respository is structured as follows:
 3. Statistical testing codebase
 
 
+How to run?
+In order to install the necessary requirements either use `pipenv install` or `pip3 install -r requirements.txt`.
+Then activate the virtual environment, e.g. with `pipenv shell`. This can also be done without the environment, but depends on dependencies.
+
+After installing, navigate to the folder ...\k-AnonML-main using cd in command prompt. After this, you call the several arguments below to initiate the code.
+
+The parameters, i.e., dataset, ML algorithm, _k_-anonymisation algorithm, and _k_ are defined via arguments as follows:
+
+```txt
+usage: baseline_with_repetitions.py [-h] [--start-k START_K] [--stop-k STOP_K] [--step-k STEP_K] [--debug] [--verbose] [{cmc,mgm,adult,cahousing}] [{rf,knn,svm,xgb}] {mondrian,ola,tdg,cb} ...
+
+Anonymize data utilising different algorithms and analyse the effects of the anonymization on the data
+
+positional arguments:
+  {cmc,mgm,adult,cahousing}
+                        the dataset used for anonymization
+  {rf,knn,svm,xgb}      machine learning classifier
+  {mondrian,ola,tdg,cb}
+    mondrian            mondrian anonyization algorithm
+    ola                 ola anonyization algorithm
+    tdg                 tdg anonyization algorithm
+    cb                  cb anonyization algorithm
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --start-k START_K     initial value for k of k-anonymity
+  --stop-k STOP_K       last value for k of k-anonymity
+  --step-k STEP_K       step for increasing k of k-anonymity
+  --debug, -d           enable debugging
+  --verbose, -v
+```
+
+
+
 Original implementations:
 
 - [Clustering Based k-Anonymization](https://github.com/qiyuangong/Clustering_based_K_Anon)
