@@ -9,7 +9,7 @@ University: Vrije Universiteit
 
 This repository contains the Python code for applying different _k_-anonymisation algorithms, i.e., Optimal Lattice Anonymization (OLA), Mondrian, Top-Down Greedy Anonymisation (TDG), k-NN Clustering-Based (CB) Anonymisation,  on datasets and measuring their effects on Machine Learning (ML) Classifiers and Regressors.
 
-The respository is structured as follows:
+The repository is structured as follows:
 1. Classification codebase
 2. Regression codebase
 3. Statistical testing code
@@ -20,12 +20,12 @@ How to run?
 In order to install the necessary requirements either use `pipenv install` or `pip3 install -r requirements.txt`.
 Then activate the virtual environment, e.g. with `pipenv shell`. This can also be done without the environment, but depends on dependencies. Therefore it is advised to first run it without downloading these requirements and dependencies
 
-After installing, navigate to the folder ...\k-AnonML-main using cd in command prompt. After this, you call the several arguments below to initiate the code, depending on what privacy method and model combination you want to use. Each model uses a different command, such as 'log' for logistic regression. 
+After installing, navigate to the folder ...\k-AnonML-main using cd in command prompt. After this, you call the several arguments below to initiate the code, depending on what privacy method and model combination you want to use. Each model uses a different command, such as 'log' for logistic regression. An example line of code to run logistic regression would be: "baseline_with_repetitions.py cahousing log mondrian"
 
 The parameters, i.e., dataset, ML algorithm, _k_-anonymisation algorithm, and _k_ are defined via arguments as follows:
 
 ```txt
-usage: baseline_with_repetitions.py [-h] [--start-k START_K] [--stop-k STOP_K] [--step-k STEP_K] [--debug] [--verbose] [{cmc,mgm,adult,cahousing}] [{rf,knn,svm,xgb}] {mondrian,ola,tdg,cb} ...
+usage: baseline_with_repetitions.py [-h] [--start-k START_K] [--stop-k STOP_K] [--step-k STEP_K] [--debug] [--verbose] [{cmc,mgm,adult,cahousing}] [{log,nb, ada, lin,log,lasso,rf,knn,svm,xgb} ] {mondrian,ola,tdg,cb} ...
 
 Anonymize data utilising different privacy methods and analyse the effects of the anonymization on the classification and regression performance
 
