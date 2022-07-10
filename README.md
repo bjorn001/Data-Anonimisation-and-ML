@@ -7,7 +7,7 @@ Examined by Jacco van Ossenbruggen and Dayana Spagnuelo
 University: Vrije Universiteit 
 
 
-This repository contains the Python code for applying different _k_-anonymisation algorithms, i.e., Optimal Lattice Anonymization (OLA), Mondrian, Top-Down Greedy Anonymisation (TDG), k-NN Clustering-Based (CB) Anonymisation,  on datasets and measuring their effects on Machine Learning (ML) Classifiers and Regression.
+This repository contains the Python code for applying different _k_-anonymisation algorithms, i.e., Optimal Lattice Anonymization (OLA), Mondrian, Top-Down Greedy Anonymisation (TDG), k-NN Clustering-Based (CB) Anonymisation,  on datasets and measuring their effects on Machine Learning (ML) Classifiers and Regressors.
 
 The respository is structured as follows:
 1. Classification codebase
