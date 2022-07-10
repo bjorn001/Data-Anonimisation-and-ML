@@ -50,6 +50,7 @@ optional arguments:
 
 
 The _k_-anonymisation algorithms "_k_-NN Clustering-Based Anonymisation", "Mondrian" and "Top-Down Greedy Anonymisation" located in the folders `clustering_based`, `basic_mondrian` and `top_down_greedy` are based on the open-source implementation of [Qiyuan Gong](mailto:qiyuangong@gmail.com). The implementation of the classfiers rf, knn, svm and xgb and the ola anonymization algorithm are extended from the paper of Dam et al. (2021) called _k_-Anonymity in practice: How generalisation and suppression affect machine learning classifiers
+
 Original implementations:
 
 - [Clustering Based k-Anonymization](https://github.com/qiyuangong/Clustering_based_K_Anon)
