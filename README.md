@@ -86,7 +86,11 @@ The repository contains following locations for data:
 - `paper-results`
   - Contains the results used for the paper itself
 
-Author: Björn van Engelenburg     
+
+
+
+Author: Björn van Engelenburg 
+
 Examined by: Jacco van Ossenbruggen and Dayana Spagnuelo
 
 University: Vrije Universiteit Amsterdam
