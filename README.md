@@ -1,7 +1,7 @@
 # K-Anonymity in practice Beyond Classifiers: How Generalisation and Suppression affect ML Performance
 
 Author: Björn van Engelenburg     
-Examined by Jacco van Ossenbruggen and Dayana Spagnuelo
+Examined by: Jacco van Ossenbruggen and Dayana Spagnuelo
 University: Vrije Universiteit Amsterdam
 
 This repository contains the Python code for applying different _k_-anonymisation algorithms, i.e., Optimal Lattice Anonymization (OLA), Mondrian, Top-Down Greedy Anonymisation (TDG), k-NN Clustering-Based (CB) Anonymisation,  on datasets and measuring their effects on Machine Learning (ML) Classifiers and Regressors.
