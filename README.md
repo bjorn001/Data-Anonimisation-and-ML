@@ -4,7 +4,7 @@ Author: Björn van Engelenburg
 Contact: bjornvane@hotmail.com
 
 Examined by Jacco van Ossenbruggen and Dayana Spagnuelo
-University: Vrije Universiteit 
+University: Vrije Universiteit Amsterdam
 
 
 This repository contains the Python code for applying different _k_-anonymisation algorithms, i.e., Optimal Lattice Anonymization (OLA), Mondrian, Top-Down Greedy Anonymisation (TDG), k-NN Clustering-Based (CB) Anonymisation,  on datasets and measuring their effects on Machine Learning (ML) Classifiers and Regressors.
@@ -57,4 +57,27 @@ Original implementations:
 - [Basic Mondrian](https://github.com/qiyuangong/Basic_Mondrian)
 - [Top Down Greedy Anonymization](https://github.com/qiyuangong/Top_Down_Greedy_Anonymization)
 - [k-Anonymity in Practice: How Generalisation and Suppression Affect Machine Learning Classifiers](https://github.com/fhstp/k-AnonML)
-- 
+
+Notice that the extension used in our paper are modifications concerning:
+- For regression
+  > median_house_value was moved to the target variable
+  > Three new regressors were added: linear, lasso and ridge regression
+  > New evaluation methods were implemented for regression: R2 score (and even MSE if useful)
+  > writing of results was changed to allow for writing the different regression evaluation results
+- For classification
+  > New classifiers were added: AdaBoostClassifier, Naive Bayes and Logistic Regression
+- For both:
+  > A non-anonymised score was printed and calculated
+
+
+
+## Data
+The repository contains following locations for data:
+
+- `datasets`
+  - contains all available datasets in separate folders
+- `generalization/hierarchies`
+  - contains the necessary defined generalization hierarchies per attribute and dataset, from the original paper of Dam et al. (2021)
+- `results`
+  - all computed results (anonymised datasets, ML performance, etc.) are stored inside a folder structure inside `results` for each experiment. These folders contain the initial result used for the paper concerning classifers and regressors.
+
